@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShoeNest</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                <img src="logo.jpg" alt="ShoeNest Logo" class="logo-img">
+            </div>
+            <nav>
+                <ul class="categories">
+                    <li>
+                        <a href="products.html">Categories</a>
+                        <ul class="dropdown">
+                            <li><a href="products.html?category=men">Sports</a></li>
+                            <li><a href="products.html?category=women">Loafers</a></li>
+                            <li><a href="products.html?category=kids">Sneakers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search for products, brands, and more">
+                <button type="submit" class="btn">Search</button>
+                <div id="search-suggestions" class="suggestions"></div>
+            </div>
+            <div class="user-options">
+                <a href="login.html" class="btn">Login</a>
+                <a href="register.html" class="btn">Register</a>
+                <div class="user-dropdown">
+                    <a href="account.html" class="btn">Account</a>
+                    <ul class="dropdown">
+                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="orders.html">Orders</a></li>
+                        <li><a href="logout.html">Logout</a></li>
+                    </ul>
+                </div>
+                <a href="cart.html" class="btn">Cart (<span id="cart-count">0</span>)</a>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Step into Style</h2>
+                <p>Discover the latest trends in footwear.</p>
+                <a href="products.html" class="btn shop-now">Shop Now</a>
+            </div>
+        </section>
+
+        <section class="about-us">
+            <div class="container">
+                <h3>About Us</h3>
+                <p>At ShoeStore, we are dedicated to providing the highest quality footwear to our customers. Our collection features the latest trends and timeless classics that cater to all tastes and preferences. With a commitment to excellence, we ensure that every pair of shoes meets our rigorous standards of comfort and durability.</p>
+            </div>
+        </section>
+        
+        <section class="latest-trends">
+            <div class="container">
+                <h3>Latest Trends</h3>
+                <p>Stay ahead of the fashion curve with our curated selection of the latest footwear trends. From chic and stylish to bold and edgy, we have something for everyone. Explore our latest arrivals and step up your shoe game.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-flex">
+            <div class="footer-content">
+                <p>&copy; 2024 ShoeNest. All rights reserved.</p>
+                <div class="social-media">
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                </div>
+            </div>
+            <div class="newsletter">
+                <h4>Subscribe to our Newsletter</h4>
+                <form action="#">
+                    <input type="email" placeholder="Your email" required>
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
