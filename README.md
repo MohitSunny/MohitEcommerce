@@ -16,7 +16,7 @@ This project is a basic e-commerce website built using HTML, CSS, and JavaScript
 
 1. *Clone the repository*
    bash
-   git clone https://github.com/your-username/ecommerce-website.git
+   git clone https://github.com/MohitSunny/ShoeNest
    cd ecommerce-website
    
 
